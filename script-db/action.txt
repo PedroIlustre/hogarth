@@ -1,0 +1,1 @@
+CREATE TABLE `hogarth`.`action` ( `id` INT NOT NULL AUTO_INCREMENT , `id_book` INT NOT NULL , `id_user` INT NOT NULL , `data_pick_up` DATE NOT NULL , `date_return` DATE NOT NULL , `tax` FLOAT NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
